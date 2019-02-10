@@ -45,7 +45,6 @@ def express(expr):
         return func
     else:
         expression = Expression(func, args)
-        print(expression)
         return expression
 
 
